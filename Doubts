@@ -48,3 +48,22 @@ DOUBTS
   "G": move one step. Position: (0, 0). Direction: South.
   Repeating the instructions, the robot goes into the cycle: (0, 0) --> (0, 1) --> (0, 2) --> (0, 1) --> (0, 0).
   Based on that, we return true.
+
+
+6. You are given:
+
+An integer n representing the number of books.
+
+An integer shelfWidth representing the maximum width of a single shelf.
+
+An integer array height[] where height[i] is the height of the i-th book.
+
+An integer array width[] where width[i] is the width of the i-th book.
+
+You must place the books in order on shelves such that:
+
+The sum of widths on a shelf does not exceed shelfWidth.
+
+The height of a shelf is the maximum height of a book placed on it.
+
+Return the minimum total height of the bookshelf when all books are placed.
