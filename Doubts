@@ -70,3 +70,27 @@ Return the minimum total height of the bookshelf when all books are placed.
 
 
 7. How to identify wethere the given question is better to be solved in greedy or dp .
+
+8. How to identify when to apply DFS / BFS based on which scenario.
+
+9. Christy is interning at HackerRank. One day she has to distribute some chocolates to her colleagues. She is biased towards her friends and plans to give them more than the others. One of the program managers hears of this and tells her to make sure everyone gets the same number.
+
+  To make things difficult, she must equalize the number of chocolates in a series of operations. For each operation, she can give  pieces to all but one colleague. Everyone who gets a piece in a round receives the same number of pieces.
+
+  Given a starting distribution, calculate the minimum number of operations needed so that every colleague has the same number of pieces.
+
+  Sample Input
+
+STDIN       Function
+-----       --------
+1           t = 1
+4           arr[] size n = 4
+2 2 3 7     arr =[2, 2, 3, 7]
+Sample Output
+2
+Explanation
+Start with [2,2,3,7]
+Add 1 to all but the 3rd element [3,3,3,8]
+Add 5 to all but the 4th element [8,8,8,8]
+
+Two operations were required.
